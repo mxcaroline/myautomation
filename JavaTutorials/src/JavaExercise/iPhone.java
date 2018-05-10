@@ -41,14 +41,43 @@ package JavaExercise;
  *
  *iphone7.video(yes);
  *iphoene7.messaging()
- *
- *
- *
+ * 
+ * 
+ * 
+ * 
  */
-public class Objectandclass {
- 
-	public Objectandclass() {
-		// TODO Auto-generated constructor stub	
+public class iPhone {// "{}"this is called curly braces of a class its referred to its body. Anything declared inside the curly braces are called members of the class. 
+	// you declare your variables or field in this curly brace
+	
+	//name 
+	String name;
+	//version
+	int versionnumber;
+	//Model
+	String model;
+	//colour
+	String color;
+	
+      
+	public void phonecall() {
+		System.out.println("This is a test call");
 	}
-
+	
+	public void contact() {
+		System.out.println("My contact list");
+	}
+	
+	public void phoneMessaging(){// camo casing 
+		System.out.println("This is a phone message");
+	}
+	
+	public void recording() {
+		System.out.println("This is to be recorded");
+	}
+	
+	public void video() {
+		System.out.println("This is my video");
+	}
+	
 }
+
