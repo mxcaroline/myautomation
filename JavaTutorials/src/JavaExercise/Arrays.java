@@ -2,7 +2,6 @@ package JavaExercise;
 
 public class Arrays {
       
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated constructor stub
 		
@@ -29,7 +28,7 @@ public class Arrays {
 		int numofplaces = Places.length;
 		System.out.println("This is the number of places" + " " + numofplaces);
 		
-	      // for loop takes 3 vaues for(inittailation , iteration, increamental)
+	      // for loop takes 3 values for(initiation , iteration, incremental)
 		 for( int b =0; b <=Places.length-1; b++ ){
 			 System.out.println("the value of my places is >>>>>" + Places[b]);
 		 }
